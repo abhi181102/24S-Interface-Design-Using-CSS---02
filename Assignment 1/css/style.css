@@ -1,0 +1,106 @@
+/* Reset default styling */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body background settings */
+body {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Logo image styles */
+.logo img {
+  max-width: 27%;
+  height: auto;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  justify-content: space-between; /* Space evenly between elements */
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px; /* Add padding */
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Video container styles */
+.video-container {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Lyrics section styles */
+.lyrics {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+/* Lyrics box styles */
+.lyrics-box {
+  max-height: 300px; /* Set max height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrollbar */
+  padding: 20px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin-bottom: 20px; /* Add margin from the bottom */
+  color: white; /* Set font color to white */
+  font-family: "Freeman", sans-serif; /* Set font family to Freeman */
+}
+
+/* Custom scrollbar styles */
+.lyrics-box ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.lyrics-box ::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Grey background color */
+}
+
+.lyrics-box ::-webkit-scrollbar-thumb {
+  background: purple; /* Purple scrollbar thumb */
+  border-radius: 5px; /* Rounder corners */
+}
+
+/* About section styles */
+.about {
+  padding: 20px; /* Add padding */
+  background-color: rgba(0, 0, 0, 0.1); /* Light gray background with opacity */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  color: white; /* Set font color to white */
+  font-family: "Freeman", sans-serif; /* Set font family to Freeman */
+  margin-top: 20px; /* Add margin from the top */
+}
+
+/* Font size for paragraphs inside the About section */
+.about p {
+  font-size: 16px; /* Set font size */
+}
+
+/* Platypi font family */
+.platypi-font {
+  font-family: "Platypi", sans-serif;
+}
