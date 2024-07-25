@@ -1,0 +1,209 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Header styles */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Top bar styles */
+.top-bar {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+/* Logo section styles */
+.logo {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.logo img {
+  height: auto;
+}
+
+/* Navigation menu styles */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav ul li {
+  display: inline;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Search bar styles */
+.search input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* candy section styles */
+.candy {
+  background-color: #fdd835;
+  color: #333;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.candy-content {
+  position: relative;
+  z-index: 2;
+}
+
+.candy h1 {
+  font-family: Oswald;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.candy p {
+  font-family: Edu Australia VIC WA NT Hand;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.candy button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.candy-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.candy-image img {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Essentials section styles */
+.essentials {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.essentials h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Gallery styles */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product p {
+  margin: 10px 0 0;
+}
+
+.product span {
+  font-weight: bold;
+  color: #b12704;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links ul li {
+  display: inline;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: auto;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
