@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../style/productdetail.css" />
+    <link rel="stylesheet" href="../style/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img class="logo" src="../Logo/Soul.png" alt="logo" />
+      </div>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../productmens.html">Men</a></li>
+          <li><a href="../productwomen.html">Women</a></li>
+          <li><a href="../productkids.html">Kids</a></li>
+        </ul>
+      </nav>
+     <a class="cta" href="../about.html"><button>About Us</button></a>
+    </header>
+    <div class="product-page">
+      <div class="product-images">
+        <img src="../Images/product details/five.jpg" alt="Product Image 1" />
+        <img src="../Images/product details/six.jpg" alt="Product Image 2" />
+      </div>
+      <div class="product-details">
+        <h1>Deadpool: Action Packed</h1>
+        <p class="price">$79.99</p>
+        <p>MRP incl. of all taxes</p>
+        <div class="size-selection">
+          <label for="size">Please select a size:</label>
+          <div class="sizes">
+            <button>XXS</button>
+            <button>XS</button>
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+            <button>XXL</button>
+            <button>XXXL</button>
+          </div>
+        </div>
+        <div class="quantity">
+          <label for="quantity">Quantity:</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value="1"
+            min="1"
+          />
+        </div>
+        <div class="buttons">
+          <a href="../index.html" class="add-to-cart">
+            <button>Add to Cart</button>
+          </a>
+          <a href="../index.html" class="buy-now">
+            <button>Buy Now</button>
+          </a>
+          <a href="../index.html" class="add-to-wishlist">
+            <button>Add to Wishlist</button>
+          </a>
+        </div>
+
+        <div class="delivery-details">
+          <label for="pincode">Enter Pincode:</label>
+          <input type="text" id="pincode" name="pincode" />
+          <button class="check">Check</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
